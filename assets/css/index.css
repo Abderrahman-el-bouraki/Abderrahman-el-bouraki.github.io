@@ -11,13 +11,15 @@ a {
   text-decoration: none
 }
 
+body {
+  font-family: monospace
+}
 nav {
   top: 0;
   width: 100vh;
   height: 6rem;
   display: flex;
   position: fixed;
-  overflow: hidden;
   align-items: center;
   background: floralwhite;
   box-shadow: 0 0 .5rem gray;
@@ -50,6 +52,7 @@ i:nth-child(3) {
 }
 ul {
   top: 0;
+  left: 0;
   width: 0;
   height: 100vh;
   position: fixed;
