@@ -37,7 +37,8 @@ i {
   height: .2rem;
   display: block;
   margin: .6rem 0;
-  background: black
+  background: black;
+  border-radius: .3rem
 }
 i:nth-child(1) {
   width: 1rem;
@@ -53,5 +54,31 @@ ul {
   height: 100vh;
   position: fixed;
   overflow: hidden;
+  background: floralwhite;
   box-shadow: 0 0 .5rem gray
+}
+li {
+  box-shadow: 0 .1rem gray, inset 0 .1rem gray;
+}
+a {
+  cursor: none;
+  display: block;
+  position: relative
+}
+a::before {
+  right: 0;
+  width: 0;
+  content: "";
+  height: 100%;
+  display: block;
+  background: teal;
+  transition: width 1s
+}
+a:hover {
+  color: white
+}
+a:hover::before {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
