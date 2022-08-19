@@ -42,14 +42,6 @@ i {
   background: black;
   border-radius: .3rem
 }
-i:nth-child(1) {
-  width: 1rem;
-  margin: 0 auto;
-}
-i:nth-child(3) {
-  width: 1rem;
-  margin: 0 auto;
-}
 ul {
   top: 0;
   left: 0;
