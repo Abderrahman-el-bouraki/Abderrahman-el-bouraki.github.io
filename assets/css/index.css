@@ -17,11 +17,11 @@ nav {
   height: 6rem;
   display: flex;
   position: fixed;
-  background: #eee;
   overflow: hidden;
   align-items: center;
+  background: floralwhite;
   box-shadow: 0 0 .5rem gray;
-  jutify-content: space-between
+  justify-content: space-between
 }
 p {
   font-size: 2rem
@@ -43,7 +43,7 @@ i:nth-child(1) {
   width: 1rem;
   margin: 0 auto;
 }
-i:nth-child(2) {
+i:nth-child(3) {
   width: 1rem;
   margin: 0 auto;
 }
